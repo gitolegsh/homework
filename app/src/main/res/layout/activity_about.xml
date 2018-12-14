@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ava"
+        android:adjustViewBounds="true"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/padding_about"
+        android:paddingLeft="@dimen/padding_left_about"
+        android:paddingTop="@dimen/padding_about"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/padding_about_bottom">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="@dimen/icon"
+                android:layout_height="@dimen/icon"
+                app:srcCompat="@android:drawable/ic_input_add" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/mobile_park"
+                android:textSize="@dimen/text_size"
+                android:paddingLeft="@dimen/paddig_lift"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/padding_about_bottom">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="@dimen/icon"
+                android:layout_height="@dimen/icon"
+                app:srcCompat="@android:drawable/presence_audio_online" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/beginner_android_developer"
+                android:textSize="@dimen/text_size"
+                android:paddingLeft="@dimen/paddig_lift"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/history"
+            android:textSize="@dimen/text_size"
+            android:paddingTop="@dimen/padding_about_bottom"
+            android:paddingBottom="@dimen/padding_about_bottom"/>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line"
+            />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/enter_a_message"
+            android:layout_marginTop="@dimen/padding_about_bottom"
+            android:textSize="@dimen/text_size"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@null"
+            android:text="@string/send_message"
+            android:textColor="@color/line" />
+
+    </LinearLayout>
+
+</RelativeLayout>

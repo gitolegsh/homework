@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NYC</string>
+    <string name="about">About</string>
+    <string name="mobile_park">System administrator of Mobile Park</string>
+    <string name="beginner_android_developer">Beginner Android developer</string>
+    <string name="history">I walked through the forest somehow, He walked on mushrooms, on berries,
+        Suddenly out of the bushes slowly It turns out the bear is clumsy. Looks into my eyes slyly,
+        I want to say something. Then I realized dashingly, Something he does not have.</string>
+    <string name="enter_a_message">Enter a message…</string>
+    <string name="send_message">SEND MESSAGE</string>
+    <string name="email">email@mail.com</string>
+    <string name="sub">Hi man</string>
+</resources>
